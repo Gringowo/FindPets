@@ -1,0 +1,34 @@
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>REGISTRAR</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="floating">Nombre y Apellido</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Contraseña</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Numero Telefonico</ion-label>
+        <ion-textarea></ion-textarea>
+      </ion-item>
+      <ion-button (click)="login()">
+        <img src="../assets/img/huella.svg" style="width : 100% ; height : 100%">
+        Enviar
+      </ion-button>
+    </ion-card-content>
+      
+  </ion-card>
+  
+</ion-content>

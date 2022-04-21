@@ -25,3 +25,20 @@
 #container a {
   text-decoration: none;
 }
+
+ion-card {
+  border-radius:30px !important;
+  }
+  ion-img {
+    max-width: 30%;
+    padding: 1rem;
+    margin: 0 auto;
+    float: center;
+}
+ion-label{
+  max-width: 30%;
+  padding: 4rem;
+  margin: 0 auto;
+  float: center;
+}
+

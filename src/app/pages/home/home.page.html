@@ -1,0 +1,29 @@
+
+<ion-content >
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>¿Quienes Somos?</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+    Aqui en FindPets queremos lo mejor para las mascostas, podrás adoptar, subir alguna mascota perdida o incluso encontrar la tuya.
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      Conoce mas sobre la fundación 
+      <a href="https://www.instagram.com/opapenablanca/?hl=es">
+        <img alt="" src="assets/img/instagram.svg"
+        width="30" height="30">
+      </a> 
+    </ion-card-content>
+  </ion-card>
+  <ion-label>Qué te gustaria hacer?</ion-label>
+  <ion-button (click)="adoptar()" > 
+    Adoptar
+    <img src="../assets/img/huella.svg" style="width : 100% ; height : 100%" >
+  </ion-button>
+  <ion-button  (click)="perdidos()">
+    <img src="../assets/img/huella.svg" style="width : 100% ; height : 100%" >
+    Perdido</ion-button>
+</ion-content>

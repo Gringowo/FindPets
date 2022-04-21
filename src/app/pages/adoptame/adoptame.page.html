@@ -1,0 +1,54 @@
+
+<ion-content>
+  <ion-card>
+  <ion-card-header>
+    <ion-card-subtitle>¿Estas pensando en adoptar?</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+  Aqui podras ver todas las mascotas disponibles para adoptar.
+  </ion-card-content>
+</ion-card>
+
+
+<ion-slides [options]="option" class="ion-margin-top">
+
+  <ion-slide>
+    <ion-card>
+      <img src="assets/img/cat1.jpg">
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+    <ion-card>
+      <img src="assets/img/cat2.jpg">
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+    <ion-card>
+      <img src="assets/img/dog1.jpg">
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+    <ion-card>
+      <img src="assets/img/dog2.jpg">
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+    <ion-card>
+      <img src="assets/img/dog3.jpg">
+    </ion-card>
+  </ion-slide>
+
+
+</ion-slides>
+
+<ion-button> 
+  
+  <img src="../assets/img/huella.svg" style="width : 100% ; height : 100%" ng-click="nextpage()" >
+  Te encontré
+</ion-button>
+</ion-content>
