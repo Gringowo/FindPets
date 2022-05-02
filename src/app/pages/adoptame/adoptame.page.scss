@@ -7,12 +7,16 @@ ion-card {
     height: 160px;
     box-shadow: none;
     border-radius:30px !important;
+    --background: #62E8E0!important;
+    color: black;
+
     
     img {
         object-fit: cover;
         width: 100%;
         transform: scale(1.1, 1.1) rotate(1deg);
         transition: 600ms all ease-in-out;
+        
     }
 }
 
@@ -29,3 +33,32 @@ ion-card {
 .swiper-slide {
     transition: 400ms all ease-in-out;
 }
+
+ion-content{
+    --background: #B05993!important;
+}
+
+ion-card-header{
+
+    --background: #4cb4ad;
+  }
+ion-card-subtitle{
+    color: black;
+}
+ion-card-content{
+    --background: #62E8E0!important;
+}
+
+ion-button {
+    margin: auto;
+    border-radius: 10px !important;
+    margin-top: 10px;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    text-transform: initial;
+    color: black!important;
+    border-color: black!important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+  }

@@ -28,6 +28,8 @@
 
 ion-card {
   border-radius:30px !important;
+  --background: #B05993;
+  color: black;
   }
   ion-img {
     max-width: 30%;
@@ -41,4 +43,36 @@ ion-label{
   margin: 0 auto;
   float: center;
 }
+
+ion-content{
+  --background: #62E8E0!important;
+}
+
+ion-button {
+  margin: auto;
+  border-radius: 10px !important;
+  margin-top: 10px;
+  height: 50px;
+  width: 180px;
+  font-size: 18px;
+  text-transform: initial;
+  color: black!important;
+  border-color: black!important;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  
+}
+.somos{
+  color: #B05993 !important;
+}
+
+ion-card-subtitle{
+  color: black;
+  
+}
+
+ion-card-header{
+  color: #9b4e81;
+  --background: #9b4e81;
+}
+
 

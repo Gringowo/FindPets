@@ -1,15 +1,16 @@
 
 <ion-content>
-  <ion-card>
-  <ion-card-header>
-    <ion-card-subtitle>¿Estas pensando en adoptar?</ion-card-subtitle>
-  </ion-card-header>
-
-  <ion-card-content>
-  Aqui podras ver todas las mascotas disponibles para adoptar.
-  </ion-card-content>
-</ion-card>
-
+  <div class="ion-text-center">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>¿Estas pensando en adoptar?</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+      Aqui podras ver todas las mascotas disponibles para adoptar.
+      </ion-card-content>
+    </ion-card>
+  </div>
 
 <ion-slides [options]="option" class="ion-margin-top">
 
@@ -46,9 +47,9 @@
 
 </ion-slides>
 
-<ion-button> 
+<div id="content" class="ion-text-center">
   
-  <img src="../assets/img/huella.svg" style="width : 100% ; height : 100%" ng-click="nextpage()" >
-  Te encontré
-</ion-button>
+  <ion-button color="tertiary" expand="block" class="btn btn1" (click)="adoptar()"><img src="../assets/img/iniciar.png" style="width : 40% ; height : 100%">Te encontre</ion-button>
+</div>
+
 </ion-content>
