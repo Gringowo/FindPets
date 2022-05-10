@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationExtras, Router} from '@angular/router';
 
 @Component({
   selector: 'app-perfil',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PerfilPage implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router,) { }
 
   ngOnInit() {
   }
+
+  volver(){
+    let navigationExtras: NavigationExtras={
+    
+    }
+    this.router.navigate(['../home'], navigationExtras);
+  }
+
 
 }

@@ -1,9 +1,42 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>perfil</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
+<ion-content >
+  <div id="somos">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>Nombre usuario
+          <ion-avatar>
+            <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+          </ion-avatar>
+        </ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        <ul>
+          <li>Nombre Completo:</li>
+          <li>Edad:</li>
+        </ul>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>
+        Contacto
+      </ion-card-subtitle> 
+    </ion-card-header>
+    <ion-card-content>
+      <ul>
+        <li>Numero:</li>
+        <li>Email:</li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
+  <ion-row></ion-row>
+  <ion-row></ion-row>
+  <div id="content" class="ion-text-center">
+  
+    <ion-button color="secondary" expand="block" class="btn btn1" (click)="volver()"><img src="../assets/img/return.svg" style="width : 40% ; height : 100%">Volver</ion-button>
+  </div>
 
 </ion-content>

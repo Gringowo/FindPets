@@ -24,6 +24,13 @@ export class HomePage {
     }
     this.router.navigate(['../perdidos'], navigationExtras);
   }
+  perfil(){
+    let navigationExtras: NavigationExtras={
+    
+    }
+    this.router.navigate(['../perfil'], navigationExtras);
+  }
+
 
 
 
